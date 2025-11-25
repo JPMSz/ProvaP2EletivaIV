@@ -23,13 +23,6 @@ function retornarJogo(){
     return $res;
 }
 
-function retornarCliente(){
-    $conexao = conectarBD();
-    $sql = "SELECT nome, precosempromo, precocompromo FROM jogosblackfriday ORDER BY nome";
-    $res = mysqli_query($conexao, $sql);
-    return $res;
-}
-
 ?>
 
 

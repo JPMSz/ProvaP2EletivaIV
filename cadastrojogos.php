@@ -1,9 +1,7 @@
 <header> Jogos Black Friday </header>
 
 <section class="cadastro">
-    <div class="linha-ou"></div>
     <h2 class="corsecTitulo">Cadastre o Jogo</h2>
-    
       <div class="jogo" style="width: 80%;">
             <form class="formulario" action="processamento.php" method="post"> 
                 <input type="text" id="nome" name="nome" placeholder="Nome do Jogo (ex: Tetris)" required>

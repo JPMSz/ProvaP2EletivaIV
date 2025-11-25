@@ -17,13 +17,3 @@ if(!empty($_POST['nome']) && !empty($_POST['precosempromo']) && !empty($_POST['p
 }
 
 ?>
-
-
-
-
-
-
-
-
-
-
